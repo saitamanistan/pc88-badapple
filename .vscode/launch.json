@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Build and Play Bad Apple FM",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "python run_m88.py --image build/bad-apple-fm.d88",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build Bad Apple FM D88"
+    }
+  ]
+}

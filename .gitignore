@@ -1,0 +1,10 @@
+.tools/
+build/*
+__pycache__/
+.env.local
+AGENTS.md
+docs/agent/
+*.rom
+*.d88
+*.mid
+!build/bad-apple-fm.d88

@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Bad Apple FM D88",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/build.py",
+        "--movie-data", "${workspaceFolder}/.media/bad-apple.frames.bin",
+        "--fm-data", "${workspaceFolder}/.media/bad-apple.fm.bin",
+        "--output", "${workspaceFolder}/build/bad-apple-fm.d88"
+      ],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    }
+  ]
+}
